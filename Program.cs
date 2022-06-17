@@ -10,7 +10,14 @@ if (isemppr == 1)
     int dailywage = Wageperhour * fulldayhour;
     Console.WriteLine("Daily wage of the employee is = " + dailywage);
     Console.WriteLine("Enter 1 - Part time & 2- for full time employee");
-        int choice = Convert.ToInt16(Console.ReadLine());
+    Console.WriteLine("tot_wage");
+    int totHrs = 0;
+    int tot_wag = 0;
+    while (totHrs <= 100)
+    {
+        totHrs = totHrs;
+    }
+    int choice = Convert.ToInt16(Console.ReadLine());
     int day_hr = 0;
     if (day_hr == 0)
         switch (choice)
@@ -26,7 +33,6 @@ if (isemppr == 1)
             break;
     }
 }
-else
     {
     Console.WriteLine("Absent");
 }
